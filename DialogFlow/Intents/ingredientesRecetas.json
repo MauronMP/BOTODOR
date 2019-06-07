@@ -1,0 +1,214 @@
+{
+  "id": "72c0a5d5-3f1a-4e67-a511-d63908ea1378",
+  "name": "ingredientesRecetas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "acad9e70-82da-4031-8394-2c4e62358d0b",
+          "required": false,
+          "dataType": "@ingredientesRecetas",
+          "name": "ingredientes",
+          "value": "$ingredientes",
+          "isList": false
+        },
+        {
+          "id": "fc444880-ec00-4678-8a5f-4448ad1a92de",
+          "required": false,
+          "dataType": "@recetasRecetas",
+          "name": "recetasRecetas",
+          "value": "$recetasRecetas",
+          "isList": false
+        },
+        {
+          "id": "8150e255-c43e-4896-865f-7f7e7a99c002",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "$nombre",
+          "isList": false
+        },
+        {
+          "id": "1970dfe6-b802-4b8f-b2e0-f9d79ef96001",
+          "required": false,
+          "dataType": "@auxiliarRecetas",
+          "name": "auxiliarRecetas",
+          "value": "$auxiliarRecetas",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "805b9b33-12ab-4d35-acb3-e2df72b844bd",
+      "data": [
+        {
+          "text": "Dime los",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ingredientes de todas las",
+          "alias": "ingredientes",
+          "meta": "@ingredientesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "90f93e7e-ff28-467f-8c0a-d8e65d2708bb",
+      "data": [
+        {
+          "text": "Dime los",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ingredientes de las",
+          "alias": "ingredientes",
+          "meta": "@ingredientesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "07c334c1-3a73-4be3-939b-dfa6872f649b",
+      "data": [
+        {
+          "text": "Dime los",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ingredientes",
+          "alias": "ingredientes",
+          "meta": "@ingredientesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c7584c26-bf47-4264-ae9c-d60cc5370cd6",
+      "data": [
+        {
+          "text": " "
+        },
+        {
+          "text": "ingredientes",
+          "alias": "ingredientes",
+          "meta": "@ingredientesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "albondigas",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    },
+    {
+      "id": "d5d45ace-816e-4281-84b4-203d281b8a2e",
+      "data": [
+        {
+          "text": "Ingredientes",
+          "alias": "ingredientes",
+          "meta": "@ingredientesRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

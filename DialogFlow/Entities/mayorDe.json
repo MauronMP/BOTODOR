@@ -1,0 +1,22 @@
+{
+  "id": "b648a541-b773-484d-b199-8be867afe2b4",
+  "name": "mayorDe",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "más de",
+      "synonyms": [
+        "de más de",
+        "mas de",
+        "mayor de",
+        "que tarde más de",
+        "tarde mas",
+        "tarde más"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

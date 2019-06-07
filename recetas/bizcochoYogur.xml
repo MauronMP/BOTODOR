@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Nf30e097a7ef34ec792dc6637a000566d">
+    <schema:name>Bizcocho de yogur</schema:name>
+    <schema:totalTime>90</schema:totalTime>
+    <schema:recipeCategory>Merienda</schema:recipeCategory>
+    <schema:description>En esta receta nos vamos a concentrar en aquellas personas que no no pueden consumir ningún alimento que contenga trigo y vamos a elaborar un bizcocho libre de gluten. Debemos tener en cuenta que las opciones para estas personas son muy limitadas y, por ello, tenemos que estar creando constantemente para que ustedes puedan disfrutar de recetas igual o más exquisitas que las que contienen gluten.</schema:description>
+    <schema:image rdf:resource="https://t1.rg.ltmcdn.com/es/images/7/9/0/img_bizcocho_de_yogur_sin_gluten_56097_600_square.jpg"/>
+    <schema:recipeIngredient>1 cucharada sopera de Ralladura de limón</schema:recipeIngredient>
+    <schema:recipeIngredient>150 gramos de harina de maíz</schema:recipeIngredient>
+    <schema:recipeIngredient>1 taza de yogur de melocotón</schema:recipeIngredient>
+    <schema:recipeIngredient>1 taza de Azúcar</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cucharada sopera de Aceite</schema:recipeIngredient>
+    <schema:recipeIngredient>3 unidades de Huevos</schema:recipeIngredient>
+    <schema:recipeIngredient>Esencia de vainilla</schema:recipeIngredient>
+    <schema:recipeIngredient>1 taza de yogur natural</schema:recipeIngredient> 
+    <schema:recipeIngredient>1 pizca de Bicarbonato de sodio</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cucharadita de maicena</schema:recipeIngredient>
+    <schema:recipeIngredient>Coco rallado</schema:recipeIngredient>
+    <schema:text>El primer paso para realizar el bizcocho de yogur es prealistar los ingredientes. Nosotros hemos seleccionado el yogur de melocotón, pero tú puedes coger el sabor que más te guste. Precalienta el horno a 180ºC.</schema:text>
+    <schema:text>En un bol, debemos pasar por un colador la harina de maíz para tamizarla y obtener una preparación más fina. Luego, la mezclamos con el azúcar.</schema:text>
+    <schema:text>Añade los huevos uno a uno y mezcla con un batidor de mano hasta que se integren los por completo.</schema:text>
+    <schema:text>Añade el yogur natural, la ralladura de limón y el yogur de melocotón, o el que haya sido de tu preferencia. Mezcla muy bien todos los ingredientes hasta obtener una masa homogénea y sin grumos.</schema:text>     
+    <schema:text>Añade la esencia de vainilla, el bicarbonato de sodio, el aceite, la maicena y mezcla muy bien los ingredientes de nuestra receta sin gluten. Rectifica el sabor de la masa, si deseas puedes añadirle un ingrediente adicional.</schema:text>
+    <schema:text>Vierte la masa en una refractaria previamente engrasada. A nivel personal quise hacer bizcochos sin glutén individuales, entonces añade la mezcla en estos moldes de silicona que son muy prácticos. Lleva al horno a 180ºC durante unos 35-40 minutos aproximadamente, apaga el horno y deja enfriar. Para que se enfríen mejor, puedes colocarlos sobre una rejilla.</schema:text>
+    <schema:text>A modo de decoración, añade un poco de coco rallado encima de cada uno de los bizcochos de yogur para celíacos</schema:text> 
+  </schema:Recipe>
+</rdf:RDF>

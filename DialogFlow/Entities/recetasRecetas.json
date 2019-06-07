@@ -1,0 +1,38 @@
+{
+  "id": "186c1f9f-7f2d-4b27-b46e-1fb3a3ae92ae",
+  "name": "recetasRecetas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "recetas",
+      "synonyms": [
+        "Dime las recetas que tienes",
+        "Dime todas las recetas que tienes",
+        "Que recetas tienes",
+        "Que recetas tienes?",
+        "Que tienes?",
+        "Qué recetas tienes?",
+        "Todas las recetas",
+        "comidas",
+        "de la receta",
+        "de las recetas",
+        "de las recetas que son",
+        "la receta",
+        "la receta de",
+        "las receta",
+        "las recetas",
+        "que recetas hay?",
+        "que recetas tienes",
+        "recetas",
+        "recetas de",
+        "recetas que",
+        "recetas que sean",
+        "recetas que son"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

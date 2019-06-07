@@ -1,0 +1,22 @@
+{
+  "id": "c830ed15-a2bd-44ab-8e89-6c586f5f4e91",
+  "name": "menorDe",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "menos de",
+      "synonyms": [
+        "-",
+        "en menos de",
+        "menos de",
+        "que tarde menos de",
+        "que tarden menos de",
+        "tarde menos de"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

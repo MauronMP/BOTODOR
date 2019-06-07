@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Nfce7834d763e43eb99f0a54221156a06">
+    <schema:name>Panqueques de quinoa</schema:name>
+    <schema:totalTime>15</schema:totalTime>
+    <schema:recipeCategory>Desayuno</schema:recipeCategory>
+    <schema:description>Deliciosos panqueques de quinoa. También conocidos como tortitas o hotcakes, los panqueques son perfectos para el desayuno o para el postre según con qué lo acompañes. Sigue esta receta sin gluten paso a paso y disfruta de los panqueques de quinoa.</schema:description>
+    <schema:image rdf:resource="https://t1.rg.ltmcdn.com/es/images/4/0/1/img_panqueques_de_quinoa_53104_600_square.jpg"/>
+    <schema:recipeIngredient>1 pizca de canela</schema:recipeIngredient>
+    <schema:recipeIngredient>1 chorro de Aceite de oliva</schema:recipeIngredient>
+    <schema:recipeIngredient>1 unidad de Huevo</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de Sal</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cucharadita de Azúcar</schema:recipeIngredient>
+    <schema:recipeIngredient>200 gramos de Harina de quinoa</schema:recipeIngredient>  
+    <schema:recipeIngredient>60 mililitros de Leche de almendras</schema:recipeIngredient>  
+    <schema:text>Antes de realizar esta receta, el primer paso es alistar todos los ingredientes. Ten en cuenta que estos ingredientes dan para tres tortitas que hemos calculado para un solo comensal.</schema:text>
+    <schema:text>En un procesador o licuadora, añadir la quinoa y procesar hasta obtener una harina homogénea. Eso sí, antes deberás lavar bien la quinoa, cubriéndola con agua, escurriéndola y repitiendo el proceso hasta que el agua salga transparente. Este paso es importante, no solo para deshacernos de las impurezas, sino para limpiar la quinoa de la saponina que la compone, perjudicial para nuestro organismo. Si quieres puedes usar directamente harina de quinoa.</schema:text>
+    <schema:text>Para hacer la masa de las tortitas sin gluten, mezclar muy bien la harina de quinoa con el huevo, la leche de almendras, la canela en polvo, la sal y el azúcar. Dejar en reposo durante 10 minutos.</schema:text> 
+    <schema:text>Calienta una sartén con aceite de oliva y añade un poco de la mezcla. Cocinar por cada lado durante 5 minutos, hasta que esté dorado.</schema:text>
+    <schema:text>Servir y disfrutar los panqueques de quinoa acompañando con miel de maple y chispas de chocolate sin azúcar. Estas tortitas sin gluten son perfectas para el desayuno acompañando con un smoothie de piña y naranja. Si te ha gustado esta receta, tienes algún comentario o inquietud, danos tu opinión.</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

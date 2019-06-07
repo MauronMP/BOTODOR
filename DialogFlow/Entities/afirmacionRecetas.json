@@ -1,0 +1,26 @@
+{
+  "id": "37127116-bb94-4e0d-974d-6649641120c0",
+  "name": "afirmacionRecetas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "con",
+      "synonyms": [
+        "con",
+        "que contengan",
+        "que lleven",
+        "que si contenga",
+        "que si contengan",
+        "que si lleven",
+        "que si tengan",
+        "que tenga",
+        "que tengan",
+        "que tienen"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

@@ -1,0 +1,399 @@
+{
+  "id": "ea324b57-7bbf-4845-a3e2-bb4cf6da16b6",
+  "name": "categoriasRecetas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4aa8109d-b702-4fd1-9b18-68e9a0bc4488",
+          "required": false,
+          "dataType": "@tiposCategorias",
+          "name": "tipoCategorias",
+          "value": "$tipoCategorias",
+          "isList": false
+        },
+        {
+          "id": "a17f1674-4d3c-43dd-aa3f-891dbe19f4f3",
+          "required": false,
+          "dataType": "@categoriasRecetas",
+          "name": "categoria",
+          "value": "$categoria",
+          "isList": false
+        },
+        {
+          "id": "e61bf8c7-82eb-4202-9256-5a86559c3557",
+          "required": false,
+          "dataType": "@menorDe",
+          "name": "menorDe",
+          "value": "$menorDe",
+          "isList": false
+        },
+        {
+          "id": "b707e2a2-c0d3-4c59-aa4a-ac926c06d579",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "tiempoMin",
+          "value": "$tiempoMin.original",
+          "isList": false
+        },
+        {
+          "id": "f01d5410-11c1-4133-91a6-ff974897eb4f",
+          "required": false,
+          "dataType": "@mayorDe",
+          "name": "mayorDe",
+          "value": "$mayorDe",
+          "isList": false
+        },
+        {
+          "id": "78662c2e-a628-4e63-bf96-a008a75b9fd8",
+          "required": false,
+          "dataType": "@tiempoRealizacionRecetas",
+          "name": "tiempoRealizar",
+          "value": "$tiempoRealizar",
+          "isList": false
+        },
+        {
+          "id": "9e3736a7-cbc1-46a7-9b6f-7ce4d6aafb8a",
+          "required": false,
+          "dataType": "@auxiliarRecetas",
+          "name": "auxiliarRecetas",
+          "value": "$auxiliarRecetas",
+          "isList": false
+        },
+        {
+          "id": "56cd15d8-767b-469a-affd-b938fe8bb337",
+          "required": false,
+          "dataType": "@recetasRecetas",
+          "name": "recetasRecetas",
+          "value": "$recetasRecetas",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "f80213b3-11aa-4bc1-af1c-2cca39e690f7",
+      "data": [
+        {
+          "text": "Tiempo de los",
+          "alias": "tiempoRealizar",
+          "meta": "@tiempoRealizacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6a351a80-51b3-4576-aba3-b6b919449311",
+      "data": [
+        {
+          "text": "Dime los",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tarden mas de",
+          "alias": "mayorDe",
+          "meta": "@mayorDe",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 min",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    },
+    {
+      "id": "64265a0f-9dff-420a-85cf-5eed1e625dcc",
+      "data": [
+        {
+          "text": "Postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tarden mas de",
+          "alias": "mayorDe",
+          "meta": "@mayorDe",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 min",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5e80dc33-1c01-4170-9ab4-64625c42bc47",
+      "data": [
+        {
+          "text": "Dime los",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tarden menos de",
+          "alias": "menorDe",
+          "meta": "@menorDe",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 min",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f9a47ff5-53c0-4768-9d81-5a0a1c6a632c",
+      "data": [
+        {
+          "text": "Postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tarden menos de",
+          "alias": "menorDe",
+          "meta": "@menorDe",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 min",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6cdac9a0-dca0-4c4c-820e-0e5aa55baee6",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "categorias",
+          "alias": "categoria",
+          "meta": "@categoriasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "72bebe6e-00d1-4b5e-b871-742cff4a8d3e",
+      "data": [
+        {
+          "text": "Dime los",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ae243e2b-f90c-41dc-a303-0b145e1b455b",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "categorias",
+          "alias": "categoria",
+          "meta": "@categoriasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0907634d-9167-4121-bca2-48399f82451a",
+      "data": [
+        {
+          "text": "Categorias",
+          "alias": "categoria",
+          "meta": "@categoriasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b2a8284e-60f0-4089-bcac-296beefcf934",
+      "data": [
+        {
+          "text": "Categoria",
+          "alias": "categoria",
+          "meta": "@categoriasRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ebda103b-789e-4b21-9fb2-861b0a3c60b9",
+      "data": [
+        {
+          "text": "Postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

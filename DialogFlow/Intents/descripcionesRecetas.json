@@ -1,0 +1,554 @@
+{
+  "id": "73cf1c8e-77e2-42ba-aab9-a35ed3f2ed95",
+  "name": "descripcionesRecetas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "08164304-c879-489a-ac3f-3fbe5b925dea",
+          "required": false,
+          "dataType": "@descripcionesRecetas",
+          "name": "descripcion",
+          "value": "$descripcion",
+          "isList": false
+        },
+        {
+          "id": "1d9d4b28-b12f-44f3-9f53-ddd32ec08122",
+          "required": false,
+          "dataType": "@recetasRecetas",
+          "name": "recetasRecetas",
+          "value": "$recetasRecetas",
+          "isList": false
+        },
+        {
+          "id": "b7c1049e-89cc-49b6-8158-cd0bf998b5e8",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "$nombre",
+          "isList": false
+        },
+        {
+          "id": "4bd3724d-ad81-4e14-b2e7-854b51ebf078",
+          "required": false,
+          "dataType": "@menorDe",
+          "name": "menorDe",
+          "value": "$menorDe",
+          "isList": false
+        },
+        {
+          "id": "a46df2ab-ecb2-46f4-a750-2573d3f74a52",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "tiempoMin",
+          "value": "$tiempoMin.original",
+          "isList": false
+        },
+        {
+          "id": "f5e602cf-67f2-48c3-b909-eba59b8ef7e7",
+          "required": false,
+          "dataType": "@tiposCategorias",
+          "name": "tipoCategorias",
+          "value": "$tipoCategorias",
+          "isList": false
+        },
+        {
+          "id": "a937c984-0e9d-450c-8243-8c08afe810d3",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "0a95fa52-3bcc-4960-b91c-fb93bb868ae2",
+          "required": false,
+          "dataType": "@auxiliarRecetas",
+          "name": "auxiliarRecetas",
+          "value": "$auxiliarRecetas",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e1b9e116-fb6c-4689-a7b9-b25872418403",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripcion de",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Panqueques de quinoa",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d4eb99e7-ffd1-4686-b0d1-c5160b7a1e17",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripciones",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "menos de",
+          "alias": "menorDe",
+          "meta": "@menorDe",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "40 minutos",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "45453850-4179-4a06-9f10-dca1fafbdc22",
+      "data": [
+        {
+          "text": "Descripcion",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Panqueques de quinoa",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ad23f2db-c3af-4e5d-95d2-dc2de56efe95",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripciones",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "de las recetas que son",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d846b264-00f9-4fd4-af72-f0daf547b596",
+      "data": [
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripcion",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d7f561d3-d9d6-45a1-b5d9-f811640b0252",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripcion de",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "receta",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aa07c324-27ed-41c9-88a3-524d125e2d8c",
+      "data": [
+        {
+          "text": "Descripcion de",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "receta",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "238830a8-d289-4d7b-8863-54bf582bab81",
+      "data": [
+        {
+          "text": "Descripcion de los",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "977a11c5-9122-41fa-a21a-65270881dbe6",
+      "data": [
+        {
+          "text": "Descripcion",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "menos de",
+          "alias": "menorDe",
+          "meta": "@menorDe",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "40 minutos",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1dcf175f-422d-4d71-8b49-6134f6a44f67",
+      "data": [
+        {
+          "text": "Dime la",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripcion",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "de la receta",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3f5865a8-62d1-479a-90e1-9d0f0d6afef9",
+      "data": [
+        {
+          "text": "Descripcion",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "receta",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c12ca779-4f5a-47aa-a2ea-98c5233ed490",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripciones",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "de las recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2e6189fa-9477-4114-bc61-abbcfa3b0eb1",
+      "data": [
+        {
+          "text": "Descripcion",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "74a811d4-6676-471a-8e5a-3382d394ec2d",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripciones",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ba5a179a-c34b-4c04-bdd8-6c9dcf2b4639",
+      "data": [
+        {
+          "text": "Descripcion",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

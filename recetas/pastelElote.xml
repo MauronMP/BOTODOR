@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="N10a22b452aba4c20a149012e6f5dc691"> 
+    <schema:name>Pastel de elote casero</schema:name>
+    <schema:totalTime>45</schema:totalTime>
+    <schema:recipeCategory>Postre</schema:recipeCategory>
+    <schema:description>El pastel de elote es uno de los panes más apreciados de la gastronomía mexicana y elaborarlo es realmente sencillo. Por otro lado, si tienes intolerancia al gluten debes saber que este delicioso bizcocho es apto para celíacos, pues se elabora con maicena y no harina de trigo. Toma nota de los ingredientes y sorprende a todos tus invitados con este pastel de elote.</schema:description>
+    <schema:image rdf:resource="https://t1.rg.ltmcdn.com/es/images/7/3/0/img_pastel_de_elote_casero_46037_600_square.jpg"/>
+    <schema:recipeIngredient>5 unidades de Huevos</schema:recipeIngredient> 
+    <schema:recipeIngredient>1 taza de Azúcar</schema:recipeIngredient>    
+    <schema:recipeIngredient>8 unidades de Mazorcas de maíz</schema:recipeIngredient>
+    <schema:recipeIngredient>85 gramos de Mantequilla</schema:recipeIngredient>    
+    <schema:recipeIngredient>1 taza de crema de leche</schema:recipeIngredient>
+    <schema:recipeIngredient>1 lata de leche condensada</schema:recipeIngredient>
+    <schema:recipeIngredient>1 taza de maicena</schema:recipeIngredient>    
+    <schema:recipeIngredient>1½ cucharadas de postre de Polvo de hornear</schema:recipeIngredient>
+    <schema:recipeIngredient>½ lata de Leche clavel (evaporada)</schema:recipeIngredient>    
+    <schema:text>Desgrana el maíz y tritura todos los granos con la licuadora o batidora junto con la leche condensada, la leche clavel y el azúcar.</schema:text>
+    <schema:text>En un recipiente aparte, separa las yemas de las claras de huevo y bate las claras a punto de nieve. En cuanto a las yemas, bátelas con un poco de azúcar y, poco a poco, añade el elote batido anteriormente y sin dejar de mover.</schema:text>
+    <schema:text>Cuando esté bien integrado, incorpora la maicena previamente tamizada junto con los polcos de hornear e intégrala. Para seguir con la masa del pastel de elote, añade la crema y sigue batiendo. Una vez mezclada, derrite la mantequilla y agrégala.</schema:text>
+    <schema:text>Por último, añade las claras batidas e incorpóralas con una cuchara de madera o espátula haciendo movimientos envolventes. Ahora que ya tienes la preparación del bizcocho de maíz lista, viértela en un molde apto para horno previamente enharinado y engrasado.</schema:text>
+    <schema:text>Hornea el pastel de elote durante 30 minutos a 180ºC. Cuando esté listo, pínchalo con un palillo para comprobar que sale limpio y retíralo del horno. Este bizcocho acostumbra a servirse caliente y acompañado de helado de vainilla.</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

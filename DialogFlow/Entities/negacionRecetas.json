@@ -1,0 +1,26 @@
+{
+  "id": "8982f906-0774-4536-ab19-128d6e9afcd5",
+  "name": "negacionRecetas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "sin",
+      "synonyms": [
+        "no contenga",
+        "no contengan",
+        "no lleve",
+        "no lleven",
+        "no tengan",
+        "no tienen",
+        "que no tenga",
+        "que no tengan",
+        "que no tienen",
+        "sin"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Nb49d142cbb5448f69e52d7bf2e21eb74">
+    <schema:name>Migas murcianas</schema:name>
+    <schema:totalTime>20</schema:totalTime>
+    <schema:recipeCategory>Plato principal</schema:recipeCategory>
+    <schema:description>Las gachasmigas o migas es un plato típico de la Región de Murcia de sencilla elaboración, que se suele preparar durante los días de lluvia. Es una variante de las tradicionales migas elaboradas a base de pan. </schema:description>
+    <schema:image rdf:resource="https://t1.rg.ltmcdn.com/es/images/2/0/6/img_migas_murcianas_para_celiacos_50602_600_square.jpg"/>
+    <schema:recipeIngredient>chorizos</schema:recipeIngredient>
+    <schema:recipeIngredient>pimientos a trozos</schema:recipeIngredient>
+    <schema:recipeIngredient>panceta sin gluten</schema:recipeIngredient>
+    <schema:recipeIngredient>longaniza roja</schema:recipeIngredient>
+    <schema:recipeIngredient>un buen chorro de aceite de oliva</schema:recipeIngredient>
+    <schema:recipeIngredient>500 gr de harina de maíz</schema:recipeIngredient>
+    <schema:recipeIngredient>400 gr de agua</schema:recipeIngredient>
+    <schema:text>Freír los embutidos con el aceite y reservarlos.</schema:text>
+    <schema:text>Mezclar bien en un bol la harina con el agua y ponerlo en la sartén con el aceite de freír los embutidos.</schema:text>
+    <schema:text>Hay que estar removiendo las migas amenudo con la rasera para que se nos queden sueltecitas, algo más de media hora tarda, y cuanto más tostaditas más ruleras se quedan, como dicen en Murcia.</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

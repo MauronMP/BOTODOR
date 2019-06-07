@@ -1,0 +1,228 @@
+{
+  "id": "5e1fe2f8-3a2f-42ad-ab76-a02872723de1",
+  "name": "pasosRecetas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0d94701b-4e11-47a4-9793-de185a98b581",
+          "required": false,
+          "dataType": "@pasosRecetas",
+          "name": "pasosRealizar",
+          "value": "$pasosRealizar",
+          "isList": false
+        },
+        {
+          "id": "fb4f322b-9002-492d-b4bf-4c3de7a2e40f",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "$nombre.original",
+          "isList": false
+        },
+        {
+          "id": "d9e821c1-37ac-4811-8c8e-3dc255db5fcb",
+          "required": false,
+          "dataType": "@recetasRecetas",
+          "name": "recetasRecetas",
+          "value": "$recetasRecetas",
+          "isList": false
+        },
+        {
+          "id": "705baf27-81f6-4c6d-9938-fcd1ddc01c09",
+          "required": false,
+          "dataType": "@auxiliarRecetas",
+          "name": "auxiliarRecetas",
+          "value": "$auxiliarRecetas",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "9f11b33a-85d9-4ecb-afe9-095d42100fb5",
+      "data": [
+        {
+          "text": "DIme",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "como se hacer una",
+          "alias": "pasosRealizar",
+          "meta": "@pasosRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2577d178-a197-4395-a070-4d97bd680d55",
+      "data": [
+        {
+          "text": "Dime los pasos de cada",
+          "alias": "pasosRealizar",
+          "meta": "@pasosRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "receta",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ec07886e-6b77-4330-b9e9-c75590bc9de7",
+      "data": [
+        {
+          "text": "Como se hacen unos",
+          "alias": "pasosRealizar",
+          "meta": "@pasosRecetas",
+          "userDefined": true
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fcd9c469-3329-4f19-acd4-e93efccb5d02",
+      "data": [
+        {
+          "text": "Como se hacen unos",
+          "alias": "pasosRealizar",
+          "meta": "@pasosRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "48e34eae-3353-4544-abb3-89588689c316",
+      "data": [
+        {
+          "text": "Como se elabora una",
+          "alias": "pasosRealizar",
+          "meta": "@pasosRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "de74cd9d-eccc-4714-a01f-ea81b94e34dc",
+      "data": [
+        {
+          "text": "Pasos",
+          "alias": "pasosRealizar",
+          "meta": "@pasosRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

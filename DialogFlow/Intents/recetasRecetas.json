@@ -1,0 +1,510 @@
+{
+  "id": "1d74ddbc-8361-4a55-aab5-c2d6bde16dd0",
+  "name": "recetasRecetas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "recetas",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9d55bb20-980e-4f38-8cb7-d8463dc00dd4",
+          "required": false,
+          "dataType": "@recetasRecetas",
+          "name": "recetasRecetas",
+          "value": "$recetasRecetas",
+          "isList": false
+        },
+        {
+          "id": "d16745c6-f693-42e5-9b4a-631e4771746a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "$nombre.original",
+          "isList": false
+        },
+        {
+          "id": "d3f6f397-0138-4065-aae5-ea8d35d39eaf",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "86362b22-29fb-4dc4-b623-c4a268106761",
+          "required": false,
+          "dataType": "@tiposCategorias",
+          "name": "tipoCategorias",
+          "value": "$tipoCategorias",
+          "isList": false
+        },
+        {
+          "id": "65c25cba-68b6-45ac-9c93-ecd92cef28bc",
+          "required": false,
+          "dataType": "@menorDe",
+          "name": "menorDe",
+          "value": "$menorDe",
+          "isList": false
+        },
+        {
+          "id": "ec74d3a4-88a6-4030-b700-e1e0df38c66a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "tiempoMin",
+          "value": "$tiempoMin.original",
+          "isList": false
+        },
+        {
+          "id": "26192a3f-8fa1-4a2a-a6d0-69e2aad8e7da",
+          "required": false,
+          "dataType": "@mayorDe",
+          "name": "mayorDe",
+          "value": "$mayorDe",
+          "isList": false
+        },
+        {
+          "id": "3154ff94-d73f-4098-8dfa-41cf94aa1ce1",
+          "required": false,
+          "dataType": "@tiempoRealizacionRecetas",
+          "name": "tiempoRealizar",
+          "value": "$tiempoRealizar",
+          "isList": false
+        },
+        {
+          "id": "4e53cf49-faf7-4e8a-a8a6-ab6c1724f07a",
+          "required": false,
+          "dataType": "@auxiliarRecetas",
+          "name": "auxiliarRecetas",
+          "value": "$auxiliarRecetas",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c58080c3-a2a7-4f8c-bca0-42f950dfb35d",
+      "data": [
+        {
+          "text": "Dime",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "todas las recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5bcd95bf-12ff-4ca0-b2af-00cb8e1a944d",
+      "data": [
+        {
+          "text": "Pincha aquí y te muestro lo que puedo hacer",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "739cffcf-a306-45f5-abc8-28cd214a8833",
+      "data": [
+        {
+          "text": "Cuanto se tardan en hacer",
+          "alias": "tiempoRealizar",
+          "meta": "@tiempoRealizacionRecetas",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "77f90962-d25e-454b-9619-74af27ba8ab9",
+      "data": [
+        {
+          "text": "Tiempo en realizar las",
+          "alias": "tiempoRealizar",
+          "meta": "@tiempoRealizacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d67a7595-87cd-4b71-a99a-7fb92130db2c",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tardan mas de",
+          "alias": "mayorDe",
+          "meta": "@mayorDe",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "19 minutos",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    },
+    {
+      "id": "bb5156fb-6e31-47b9-a173-44887bfe8ec7",
+      "data": [
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mas de",
+          "alias": "mayorDe",
+          "meta": "@mayorDe",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 minutos",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "719151eb-454a-4036-be0f-bc3838dd5e91",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tardan menos de",
+          "alias": "menorDe",
+          "meta": "@menorDe",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "19 minutos",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9ba7edc2-0be4-4b78-b2a5-b2ac115665d6",
+      "data": [
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "en menos de",
+          "alias": "menorDe",
+          "meta": "@menorDe",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "10 minutos",
+          "alias": "tiempoMin",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "471abd44-abe2-4176-94a8-e9dd36b730a5",
+      "data": [
+        {
+          "text": "Dime las",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3ba654de-51bb-4f91-95b6-108d87f26885",
+      "data": [
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3eebbecd-3e5b-4abf-bf54-dcc2ebdcf6d9",
+      "data": [
+        {
+          "text": "Tortilla de camarones sin harina de garbanzos",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c92e5ee4-3285-4898-b41f-8bb0f74670eb",
+      "data": [
+        {
+          "text": "receta",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Tortilla de camarones sin harina de garbanzos",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4a4375a8-a866-44ec-bd6e-a9aca9f032cb",
+      "data": [
+        {
+          "text": "Dime",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "2",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "38f2f099-aa67-449e-9db9-50add8741aa1",
+      "data": [
+        {
+          "text": "2",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "029f6edf-0f65-4be5-8e0b-292f43d91877",
+      "data": [
+        {
+          "text": "Dime las recetas que tienes",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cff5e75e-005c-4b59-bc6d-e80913f2d077",
+      "data": [
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

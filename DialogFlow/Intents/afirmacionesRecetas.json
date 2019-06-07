@@ -1,0 +1,571 @@
+{
+  "id": "7235b6f4-bde3-4de6-9799-dc1c05551932",
+  "name": "afirmacionesRecetas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "00bf4ae4-6f1b-4b22-8264-90d55bbd8b32",
+          "required": false,
+          "dataType": "@tiposCategorias",
+          "name": "tipoCategorias",
+          "value": "$tipoCategorias",
+          "isList": false
+        },
+        {
+          "id": "32b95867-cca4-4f57-94fd-c3f192fba044",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "tipoIngrediente",
+          "value": "$tipoIngrediente.original",
+          "isList": false
+        },
+        {
+          "id": "b4e8267a-6fb9-4bdf-b122-62e29d9a69e2",
+          "required": false,
+          "dataType": "@recetasRecetas",
+          "name": "recetasRecetas",
+          "value": "$recetasRecetas",
+          "isList": false
+        },
+        {
+          "id": "2696c9a4-30af-4125-b912-dada7038ab4a",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "1f731aa7-9a30-46f7-af90-eb6a4da7b5ac",
+          "required": false,
+          "dataType": "@afirmacionRecetas",
+          "name": "afirmacion",
+          "value": "$afirmacion",
+          "isList": false
+        },
+        {
+          "id": "73d693c5-69de-4a96-ac3d-20d175ed6673",
+          "required": false,
+          "dataType": "@descripcionesRecetas",
+          "name": "descripcion",
+          "value": "$descripcion",
+          "isList": false
+        },
+        {
+          "id": "3d0eb7af-5167-4593-9233-37e726e4a987",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "$nombre.original",
+          "isList": false
+        },
+        {
+          "id": "cd7102c4-dcf5-4ee2-a352-3e92001f7d0a",
+          "required": false,
+          "dataType": "@auxiliarRecetas",
+          "name": "auxiliarRecetas",
+          "value": "$auxiliarRecetas",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c0e16923-064d-4533-aa56-bd8fcf0800d5",
+      "data": [
+        {
+          "text": "Pizza",
+          "alias": "nombre",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "quinoa",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b9b8a0ac-3f2e-4ce9-a85c-525ec598320c",
+      "data": [
+        {
+          "text": "descripcion de",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "039730dd-7d2e-4373-8509-9ec51569213b",
+      "data": [
+        {
+          "text": "Dime la",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "descripcion de",
+          "alias": "descripcion",
+          "meta": "@descripcionesRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "47e70c6f-97c5-4a77-9e58-a65aa4f92529",
+      "data": [
+        {
+          "text": "Que recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tienen",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "huevo",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "746dd079-ffbd-4782-98ba-1e74a6c21382",
+      "data": [
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postre",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7eaea0d5-68c5-427f-8aa4-a2986d86d330",
+      "data": [
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d6e54e81-4b33-4a8a-aae7-595333df85cb",
+      "data": [
+        {
+          "text": "Dime",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tengan",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ca918947-97ee-4726-8e17-68c55114b805",
+      "data": [
+        {
+          "text": "Dime",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "receta",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5ef06c76-d91d-495b-8753-678439e06e52",
+      "data": [
+        {
+          "text": "3",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "que tengan",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3f5af04c-1a46-44b3-a2c3-026cbec36a32",
+      "data": [
+        {
+          "text": "Dime",
+          "alias": "auxiliarRecetas",
+          "meta": "@auxiliarRecetas",
+          "userDefined": true
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "recetas",
+          "alias": "recetasRecetas",
+          "meta": "@recetasRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bfa0dce5-2cce-4651-b0a1-763d76b4037e",
+      "data": [
+        {
+          "text": "postres",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5d8c00f5-87df-4c53-91a7-202749339fca",
+      "data": [
+        {
+          "text": "meriendas",
+          "alias": "tipoCategorias",
+          "meta": "@tiposCategorias",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "con",
+          "alias": "afirmacion",
+          "meta": "@afirmacionRecetas",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sal",
+          "alias": "tipoIngrediente",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

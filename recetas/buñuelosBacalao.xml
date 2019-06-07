@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="N9257ef899cb042c38b1f8a9a891db2ac">
+    <schema:name>Buñuelos de bacalao</schema:name>
+    <schema:totalTime>30</schema:totalTime>
+    <schema:recipeCategory>Entrante</schema:recipeCategory>
+    <schema:description>En esta receta de buñuelos de bacalao sin gluten traemos un aperitivo o entrante muy común en Semana Santa o Cuaresma, pero en una versión especial porque son buñuelos de bacalao para celíacos.Estos llevan un delicioso rebozado especial libre de gluten que es apto tanta personas con celiaquía como para todas las demás y por ello, no te puedes perder estos buñuelos de bacalao con harina de garbanzos tan sabrosos.</schema:description>
+    <schema:image rdf:resource="https://t1.rg.ltmcdn.com/es/images/4/1/1/bunuelos_de_bacalao_sin_gluten_56114_600_square.jpg"/>
+    <schema:recipeIngredient>4 filetes de bacalao desalado</schema:recipeIngredient> 
+    <schema:recipeIngredient>1 pizca de sal</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de perejil</schema:recipeIngredient>
+    <schema:recipeIngredient>1 huevo</schema:recipeIngredient>
+    <schema:recipeIngredient>300 mililitros de aceite para freír</schema:recipeIngredient>
+    <schema:recipeIngredient>1 taza de harina de garbanzos</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de pimienta negra</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de bicarbonato de sodio</schema:recipeIngredient>
+    <schema:text>Reúne todos los ingredientes que necesitas para hacer los buñuelos de bacalao con harina de garbanzos.</schema:text>
+    <schema:text>Vamos a preparar el rebozado para los buñuelos de bacalao para celíacos. Para ello, en un bol pon la harina de garbanzos junto con el huevo.</schema:text>
+    <schema:text>Añade el perejil finamente picado y el bicarbonato de sodio.</schema:text>
+    <schema:text>Mezcla muy bien todos los ingredientes y si observas que la masa de los buñuelos de bacalao con harina de garbanzos está muy espesa añade una o dos cucharaditas de agua, aunque lo ideal es obtener un rebozado espeso.</schema:text>
+    <schema:text>Corta el bacalao desalado en cuadros de un bocado, báñalos en el rebozado, añade un poco de sal y pimienta al gusto y resérvalos en un plato.</schema:text>
+    <schema:text>Lleva una sartén grande con suficiente aceite para freír al fuego y, una vez caliente, echa los buñuelos de bacalao para celíacos con ayuda de una cuchara sopera y deja freír muy bien hasta que estén dorados por ambos lados.</schema:text>
+    <schema:text>Retira los bocados de buñuelos de bacalao sin gluten cuando estén listos, llévalos a un plato con papel absorbente y retira el exceso de grasa. Sírvelos acompañados de la salsa que desees, como esta mayonesa de albahaca o este alioli con túrmix, y espolvorea encima un poco de perejil fresco.</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

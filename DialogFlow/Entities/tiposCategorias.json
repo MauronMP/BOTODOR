@@ -1,0 +1,59 @@
+{
+  "id": "476f1db5-2972-446f-9b8a-c7986809e0a9",
+  "name": "tiposCategorias",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Cena",
+      "synonyms": [
+        "cena",
+        "cenas",
+        "cens"
+      ]
+    },
+    {
+      "value": "Desayuno",
+      "synonyms": [
+        "desayuno",
+        "desayunos"
+      ]
+    },
+    {
+      "value": "Entrante",
+      "synonyms": [
+        "Entrante",
+        "entrante",
+        "entrantes"
+      ]
+    },
+    {
+      "value": "Merienda",
+      "synonyms": [
+        "Meriendas",
+        "merienda",
+        "meriendas"
+      ]
+    },
+    {
+      "value": "Plato principal",
+      "synonyms": [
+        "plato principal",
+        "platos",
+        "platos principales",
+        "principal"
+      ]
+    },
+    {
+      "value": "Postre",
+      "synonyms": [
+        "Postre",
+        "postre",
+        "postres"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

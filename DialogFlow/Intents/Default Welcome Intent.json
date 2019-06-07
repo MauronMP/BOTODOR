@@ -1,0 +1,132 @@
+{
+  "id": "9bdf9b8a-845d-4007-98b2-049aa7b30e50",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "title": "¡Hola! Soy Botodor",
+          "subtitle": "Soy un asistente diseñado para poder ayudarte con tus dudas sobre recetas celiacas",
+          "imageUrl": "https://thumbs.gfycat.com/GiftedTinyHammerheadshark-small.gif",
+          "buttons": [],
+          "lang": "es"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "title": "¿En qué puedo ayudarte?",
+          "subtitle": "",
+          "imageUrl": "",
+          "buttons": [
+            {
+              "text": "Pincha aquí y te muestro lo que puedo hacer"
+            }
+          ],
+          "lang": "es"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "d403432e-8fb2-4e24-b921-3c8cdfa2d4c1",
+      "data": [
+        {
+          "text": "Odor"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2a80257c-ad7d-49b9-b992-a622117f0e93",
+      "data": [
+        {
+          "text": "chao"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b15fadbe-2430-485d-8f54-68f8d369f7d9",
+      "data": [
+        {
+          "text": "hola"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a95cc9d9-d7b2-446e-98a5-fdb18458885b",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "05fabf8f-5e53-461b-9abf-d63d95b70bda",
+      "data": [
+        {
+          "text": "saludos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "40779bab-0d0e-483a-b96d-d46206368e5b",
+      "data": [
+        {
+          "text": "hey ho"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

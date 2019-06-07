@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="N2438ffae4af34453b5d1c2f952057ee0">
+    <schema:name>Albóndigas de lentejas veganas</schema:name>
+    <schema:totalTime>15</schema:totalTime>
+    <schema:recipeCategory>Plato principal</schema:recipeCategory>
+    <schema:description>Las albóndigas de lentejas veganas son muy fáciles de hacer e ideales para servir con pasta y una salsa de nuestra preferencia. Además, son libres de gluten, aunque debemos asegurarnos de que la harina de avena, efectivamente, es para celíacos, puesto que aunque la avena es un cereal sin gluten, al procesarla puede entrar en contacto con esta sustancia. </schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/3/3/9/img_albondigas_de_lentejas_veganas_63933_600_square.jpg"/>
+    <schema:recipeIngredient>2 ajos uno de ellos picado</schema:recipeIngredient> 
+    <schema:recipeIngredient>1 taza de lentejas cocidas</schema:recipeIngredient>
+    <schema:recipeIngredient>1/2 taza de avena molida</schema:recipeIngredient>
+    <schema:recipeIngredient>1/2 cebolla picada</schema:recipeIngredient>
+    <schema:recipeIngredient>Orégano, sal y pimienta al gusto</schema:recipeIngredient>
+    <schema:text>Sofreímos el ajo y la cebolla en un poco de aceite caliente.</schema:text>
+    <schema:text>Cuando la cebolla se torne transparente, la añadimos a las lentejas y mezclamos bien.</schema:text>
+    <schema:recipeIngredient>1 ramito de perejil picado</schema:recipeIngredient>
+    <schema:text>Picamos el perejil y lo añadimos a la masa de las albóndigas de lentejas veganas.</schema:text>
+    <schema:text>Machacamos bien para integrar todos los ingredientes.</schema:text>
+    <schema:text>Añadimos poco a poco la harina de avena y seguimos mezclando.</schema:text>
+    <schema:text>Formamos las albóndigas de lentejas caseras del tamaño que deseemos.</schema:text>
+    <schema:text>En una sartén con un poco aceite, ponemos las albóndigas veganas y las cocinamos.</schema:text>
+    <schema:text>Damos vueltas para que se tuesten un poco por todas partes y de forma pareja.</schema:text>
+    <schema:text>Servimos las albóndigas de lentejas veganas con pasta y una salsa de tomate. Para que la receta sea 100% vegana, recuerda usar pasta también vegana.</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

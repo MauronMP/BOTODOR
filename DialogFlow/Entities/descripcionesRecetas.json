@@ -1,0 +1,24 @@
+{
+  "id": "8efefa36-a926-491e-806c-e3e6949406eb",
+  "name": "descripcionesRecetas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "descripcion",
+      "synonyms": [
+        "Descripcion de los",
+        "descripciones",
+        "la descripcion de",
+        "las descripcioens de las",
+        "las descripcioesn de",
+        "las descripcion de",
+        "las descripciones",
+        "las descripciones de los"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

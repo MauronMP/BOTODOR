@@ -1,0 +1,41 @@
+{
+  "id": "eb5dd480-b67d-4a3e-848f-d0203f0c0f94",
+  "name": "pasosRecetas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "pasos",
+      "synonyms": [
+        "Como hacer unos",
+        "Como se  hacen las",
+        "Como se hace el",
+        "Como se hacen",
+        "Como se hacen los",
+        "Como se hacen unas",
+        "Como se hacen unos",
+        "Como se hacer la",
+        "DIme las instrucciones para hacer",
+        "DIme las instruncciones para poder realizar un",
+        "Dime los pasos de cada",
+        "Dime los pasos para hacer",
+        "Dime los pasos para hacer el",
+        "Dime los pasos para hacer los",
+        "Dime los pasos para hacer una",
+        "Dime los pasos para hacer unos",
+        "Pasos para hacer las",
+        "como hacer un",
+        "como se debe de hacer un",
+        "como se hace",
+        "pasos",
+        "pasos para hacer el",
+        "pasos para realizar",
+        "pasos para realizar las",
+        "pasos para realizar los"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

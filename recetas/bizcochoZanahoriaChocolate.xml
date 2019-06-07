@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Na69b5e8d20c44d08b9a91202e39f1196">
+    <schema:name>Bizcocho de zanahoria y chocolate</schema:name>
+    <schema:totalTime>45</schema:totalTime>
+    <schema:recipeCategory>Merienda</schema:recipeCategory>
+    <schema:description>¿No sabes qué comer para el desayuno o la merienda? Pues esta receta de bizcocho de zanahoria y chocolate sin gluten es una gran opción porque además no lleva ni azúcar ni productos lácteos, así que es ideal tanto para celíacos como para intolerantes a la lactosa y otras personas que simplemente quieran algo más saludable.</schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/6/5/9/img_bizcocho_de_zanahoria_y_chocolate_sin_gluten_68956_600_square.jpg"/>
+    <schema:recipeIngredient>3 cucharadas soperas de xilitol o azúcar de abedul</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cucharada sopera de aceite de coco</schema:recipeIngredient>
+    <schema:recipeIngredient>2 huevos</schema:recipeIngredient>    
+    <schema:recipeIngredient>70 gramos de harina de avena sin gluten, harina de arroz o maicena</schema:recipeIngredient>
+    <schema:recipeIngredient>2 cucharadas soperas de cacao en polvo 50%</schema:recipeIngredient>  
+    <schema:recipeIngredient>1 zanahoria</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cucharada postre de polvo de hornear o levadura química tipo Royal</schema:recipeIngredient>
+    <schema:text>Pela la zanahoria, cortada en cubos, y mezcla en una licuadora junto con los huevos y el aceite de coco.</schema:text>
+    <schema:text>En un bol mezcla los ingredientes secos del bizcocho de zanahoria sin gluten, es decir, la harina, el xilitol y la levadura en polvo. Si lo prefieres puede hacer el bizcocho de zanahoria con maicena que igualmente es apta para celíacos.</schema:text>
+    <schema:text>Coge la mezcla de la licuadora, agrégala al bol de los secos y mezcla bien. Esta es la masa base del pastel de zanahoria y chocolate sin gluten.</schema:text>
+    <schema:text>Divide la masa en dos partes iguales y añadir el cacao en polvo en una de ellas.</schema:text>
+    <schema:text>Coge un molde de 20 cm y engrásalo con aceite de coco. Vierta la masa de zanahoria primero y luego echa por encima la de chocolate.</schema:text>
+    <schema:text>Hornea el bizcocho de chocolate y zanahoria sin gluten fácil a 200 ºC hasta que esté bien hecho, unos 30 minutos aproximadamente.</schema:text>
+    <schema:text>¡Y aquí tienes! Disfruta tu bizcocho de zanahoria y chocolate sin gluten con una taza de café u otra bebida apetitosa y dinos en los comentarios si te ha gustado.</schema:text>
+    </schema:Recipe>
+</rdf:RDF>

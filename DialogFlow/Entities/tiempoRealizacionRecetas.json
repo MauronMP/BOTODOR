@@ -1,0 +1,27 @@
+{
+  "id": "2472a3fc-362c-4216-8f40-f818db54d6a5",
+  "name": "tiempoRealizacionRecetas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "tiempoRealizar",
+      "synonyms": [
+        "Cuanto se tada?",
+        "Cuanto se tarda en hacer",
+        "Cuanto se tarda en realizar",
+        "Cuanto se tardan en hacer?",
+        "Cuanto tarda en",
+        "Cuanto tardan",
+        "Dime el tiempo",
+        "TIempo en realizar",
+        "Tiempo en realizar las",
+        "Tiempo para",
+        "tiempoRealizar"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

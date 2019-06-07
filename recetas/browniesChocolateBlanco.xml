@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Ncad01dc4ed8b43eda869179b5e658d7d">
+    <schema:name>Brownies de chocolate blanco</schema:name>
+    <schema:totalTime>90</schema:totalTime>
+    <schema:recipeCategory>Postre</schema:recipeCategory>
+    <schema:description>Para todas aquellas personas intolerantes al gluten que dejaron de comer dulces por contener esta sustancia, en esta ocasión traemos una receta pensada para ellos, brownies sin gluten. Se trata de una elaboración muy sencilla y realmente deliciosa, así que no lo pienses más y ponte manos a la obra para preparar estos increíbles brownies de chocolate blanco para celíacos.</schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/4/3/1/img_brownies_de_chocolate_blanco_sin_gluten_56134_600_square.jpg"/>
+    <schema:recipeIngredient>3 unidades de Huevos</schema:recipeIngredient>
+    <schema:recipeIngredient>200 gramos de Chocolate blanco </schema:recipeIngredient>
+    <schema:recipeIngredient>150 gramos de Azúcar </schema:recipeIngredient>
+    <schema:recipeIngredient>1 taza de Leche</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de Esencia de vainilla</schema:recipeIngredient>
+    <schema:recipeIngredient>125 gramos de Mantequilla sin gluten</schema:recipeIngredient>
+    <schema:recipeIngredient>75 gramos de Harina integral sin gluten</schema:recipeIngredient>
+    <schema:text>El primer paso para realizar esta receta es prealistar los ingredientes del postre sin gluten.</schema:text>
+    <schema:text>En un bol, adiciona la harina integral sin gluten y el azúcar y mezcla bien. Es importante que la harina integral se pase por un colador para que nuestra receta quede más fina.</schema:text>
+    <schema:text>Añade los huevos uno a uno con la esencia de vainilla y mezcla muy bien hasta que se integren en la masa de brownies para celíacos.</schema:text>
+    <schema:text>Lo ideal es que obtengamos una masa espesa como la que se observa en la fotografía. Añade la taza de leche y mezcla bien.</schema:text>
+    <schema:text>Derrite la mantequilla y adiciona el chocolate blanco a esta mezcla para que se fundan los dos ingredientes.</schema:text>
+    <schema:text>Añade la mezcla anterior de chocolate blanco y la mantequilla al bol donde tenemos la masa de los brownies sin gluten y mezcla bien hasta que se integren los ingredientes.</schema:text>  
+    <schema:text>Lleva la preparación para celíacos a un molde de silicona y precalienta el horno a 200ºC. Una vez caliente, hornea los brownies a 180ºC durante 30-35 minutos aproximadamente, o hasta que estén nuestro postre sin gluten.</schema:text>
+    <schema:text>Una vez retires los brownies sin gluten, puedes bañarlos con chocolate blanco, dejar enfriar y degustar.</schema:text>   
+  </schema:Recipe>
+</rdf:RDF>

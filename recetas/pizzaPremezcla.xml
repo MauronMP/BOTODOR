@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Ne6645c1930c54496ba0d65a21a4be222">
+    <schema:name>Pizza con premezcla</schema:name>
+    <schema:totalTime>45</schema:totalTime>
+    <schema:recipeCategory>Plato principal</schema:recipeCategory>
+    <schema:description>El gluten es un conjunto de proteínas que se encuentra en cereales como el trigo, la avena, y la cebada. Cada día hay más personas alérgicas a los productos que contienen gluten o que optan por llevar una dieta libre de este, por lo que, pensando en todo tipo de consumidores, hemos preparado una deliciosa y nutritiva alternativa para una de las comidas más conocidas: la pizza. Sigue leyendo y descubre como hacer pizza sin gluten con premezcla de harina para celíacos.</schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/4/1/5/pizza_sin_gluten_con_premezcla_69514_600_square.jpg"/>
+    <schema:recipeIngredient>500 gramos de premezcla de harina sin gluten para pizza</schema:recipeIngredient>
+    <schema:recipeIngredient>¾ taza de puré de tomate</schema:recipeIngredient>
+    <schema:recipeIngredient>1¼ tazas de agua</schema:recipeIngredient>
+    <schema:recipeIngredient>4 cucharadas soperas de aceite vegetal</schema:recipeIngredient>
+    <schema:recipeIngredient>½ pieza de cebolla</schema:recipeIngredient>
+    <schema:recipeIngredient>200 gramos de queso mozzarella rallado</schema:recipeIngredient>
+    <schema:recipeIngredient>1½ cucharaditas de levadura seca</schema:recipeIngredient>
+    <schema:recipeIngredient>1½ piezas de pimiento</schema:recipeIngredient>
+    <schema:recipeIngredient>¼ taza de aceitunas</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pieza de salchicha</schema:recipeIngredient>
+    <schema:text>En un recipiente mezcla la premezcla de harina para pizza sin gluten junto con la levadura.</schema:text>
+    <schema:text>Agrega el aceite y mezcla hasta incorporarlo totalmente; posteriormente agrega agua hasta obtener una masa suave y homogénea.</schema:text>
+    <schema:text>Forma una bola con la masa de pizza sin gluten y deja reposar un minuto.</schema:text>
+    <schema:text>Con la ayuda de un rodillo forma la base de la pizza para celíacos sobre una superficie enharinada para evitar que la masa se pegue, y colócala en una charola engrasada o cubierta con papel encerado.</schema:text>
+    <schema:text>Deja fermentar la base por 15 minutos cerca del horno o de alguna otra fuente de calor. Transcurrido este tiempo, agrega el puré de tomate, el queso y los ingredientes al gusto.</schema:text>
+    <schema:text>Hornea la pizza sin gluten con premezcla a 200-220 ºC de 15 a 18 minutos, o hasta que el contorno de la masa esté dorado y el centro bien cocido. Sirve mientras esta caliente acompañada de tus aliños favoritos.Esperamos que disfrutes de esta deliciosa pizza para celíacos elaborada con harina de premezcla sin gluten. Si te encuentras en México puedes comprar la harina que utilicé yo, de la marca DeliMaize. Y si durante el procedimiento surge alguna pregunta o sugerencia, por favor no dudes en escribir tus comentarios.</schema:text>  
+  </schema:Recipe>
+</rdf:RDF>

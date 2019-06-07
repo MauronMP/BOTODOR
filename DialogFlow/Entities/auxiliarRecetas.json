@@ -1,0 +1,30 @@
+{
+  "id": "90bafbf7-3408-4add-b5b1-d87d451c62ef",
+  "name": "auxiliarRecetas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "auxiliar",
+      "synonyms": [
+        "?",
+        "Dime",
+        "Dime las",
+        "Dime los",
+        "Muestra",
+        "Muestrame",
+        "Pincha aquí y te muestro lo que puedo hacer",
+        "dime las",
+        "muestra",
+        "muestralo",
+        "muestralos",
+        "muestrame las",
+        "muestrame los",
+        "¿Qué hago?"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Nd82f9ee3943040f2b8c1a409ac6c5a5c"> 
+    <schema:name>Tortilla de camarones sin harina de garbanzos</schema:name>
+    <schema:totalTime>45</schema:totalTime>
+    <schema:recipeCategory>Cena</schema:recipeCategory>
+    <schema:description>La tortilla de camarones es una de las recetas andaluzas por excelencia del tiempo de Cuaresma. Las tortillitas de camarones típicas están hechas con harina de garbanzos, pero se ha sustituido la harina de garbanzos por maicena.Si eres celíaco, te recomendamos utilizar la de garbanzos, ya que es un tipo de harina que no tiene gluten y aporta más sabor, sin embargo, como la maicena también es libre de gluten puedes emplearla. Así mismo, tanto la harina de maíz como la de garbanzos son dos tipos de harina ideales para realizar rebozados y tempuras.Esta receta de tortilla de camarones sin harina de garbanzos te sorprenderá por lo fácil que, sobre todo si sigues el paso a paso de la receta que te ofrecemos a continuación. Es tan sencilla que te preguntarás por qué no la has hecho antes.</schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/3/2/6/img_tortilla_de_camarones_sin_harina_de_garbanzos_60623_600_square.jpg"/>    
+    <schema:recipeIngredient>150 gramos de camarones</schema:recipeIngredient>       
+    <schema:recipeIngredient>1 cucharada sopera de Colorante de paellas</schema:recipeIngredient>          
+    <schema:recipeIngredient>¼ cebolla</schema:recipeIngredient>    
+    <schema:recipeIngredient>1 puñado de Sal</schema:recipeIngredient>
+    <schema:recipeIngredient>2 tazas de harina de maíz</schema:recipeIngredient>
+    <schema:recipeIngredient>2 cucharadas soperas de Perejil</schema:recipeIngredient>    
+    <schema:recipeIngredient>100 mililitros de Aceite de oliva</schema:recipeIngredient> 
+    <schema:recipeIngredient>60 mililitros de Agua</schema:recipeIngredient>  
+    <schema:text>Alistamos los ingredientes que vamos a necesitar para hacer esta receta de tortillas de camarones de tal modo que podamos cocinar con mayor comodidad.</schema:text>
+    <schema:text>En primer lugar, picamos la cebolla todo lo fina que podamos. ¿Por qué? Para que suelte el mayor jugo posible e impregne la base de nuestras tortitas de camarones particulares. Ya lo veréis.
+    </schema:text>
+    <schema:text>Echamos la cebolla en una fuente amplia, y le sumamos la mitad de la sal, el perejil y el colorante. </schema:text>
+    <schema:text>Agregamos ahora la maicena y el agua y removemos todo bien. Os recomendamos probar el punto de sal por si hubiera que corregirlo para que las tortillitas de camarones sin harina de garbanzos queden perfectas.</schema:text> 
+    <schema:text>Añadimos los camarones y dejamos que repose la base y se empape el marisco de la mezcla durante al menos 30 minutos.</schema:text>
+    <schema:text>En aceite bien caliente, que humeé, freímos una a una las tortillas de camarones sin harina de garbanzos. Se hacen muy rápido así que estad muy atentos. Vuelta y vuelta, si el aceite está en su punto. Las colocamos sobre papel absorbente para retirar el exceso de aceite y las presentamos para comer. ¡Deliciosas!Podemos acompañar las tortitas de camarones con una buena ensalada andaluza o elaborar otras tapas como croquetas de jamón o pescadito frito.</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

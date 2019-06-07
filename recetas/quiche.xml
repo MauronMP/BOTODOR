@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="N59a6630d6b5744f987ccbe11dac66d60">
+    <schema:name>Quiche sin lactosa</schema:name>
+    <schema:totalTime>45</schema:totalTime>
+    <schema:recipeCategory>Entrante</schema:recipeCategory>
+    <schema:description>¿Te apetece comer o cenar una comida fácil de elaborar pero a la vez que se salga de la rutina? Pues si eres celíaco y/o intolerante a la lactosa no te pierdas esta fabulosa receta de quiche sin gluten y sin lactosa, que va rellena de bacon y queso y que está para chuparse los dedos. ¡Revisa los pasos y manos a la obra!</schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/9/7/6/quiche_sin_gluten_ni_lactosa_65679_600_square.jpg"/> 
+    <schema:recipeIngredient>Pimienta negra molida</schema:recipeIngredient> 
+    <schema:recipeIngredient>2 botes pequeños de nata para cocinar sin lactosa</schema:recipeIngredient>
+    <schema:recipeIngredient>1 paquete de queso sin lactosa</schema:recipeIngredient>  	
+    <schema:recipeIngredient>Masa de hojaldre sin gluten</schema:recipeIngredient> 
+    <schema:recipeIngredient>2 huevos</schema:recipeIngredient>
+    <schema:recipeIngredient>Sal</schema:recipeIngredient> 
+    <schema:recipeIngredient>1 paquete de bacon sin lactosa ni gluten</schema:recipeIngredient>
+    <schema:text>Coger todos los ingredientes y reunirlos para empezar a hacer la quiche sin lácteos.</schema:text> 
+    <schema:text>Poner los huevos en un bol y batirlos un poco.</schema:text>
+    <schema:text>Cortar el bacon en tiras.</schema:text>
+    <schema:text>Añadir los demás ingredientes de la quiche sin lactosa y unirlos uniformemente.</schema:text>
+    <schema:text>Estirar el hojaldre en la base de un molde de quiche.Puedes preparar también esta receta de masa de quiche sin gluten casera si lo prefieres en vez de comprarla.</schema:text> 
+    <schema:text>Y verter los ingredientes dentro.</schema:text>  
+    <schema:text>Hornear la quiche sin gluten a 200 °C entre 20 y 30 minutos arriba y abajo.</schema:text>
+    <schema:text>Sacar la quiche sin gluten ni lactosa del horno y esperar a que se enfríe para poder desmoldar.</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

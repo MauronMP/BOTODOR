@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Nd3c425bb9ce24672bb0bf1aedeb064e8">
+    <schema:name>Gazpacho</schema:name>
+    <schema:totalTime>30</schema:totalTime>
+    <schema:recipeCategory>Entrante</schema:recipeCategory>
+    <schema:description>Lo fundamental para saber cómo hacer gazpacho andaluz refrescante es la combinación de pan, ajo, sal, vinagre y aceite de buena calidad; y luego el tomate, el pimiento (en Argentina se dice morrón o ají) y el pepino, que también han de ser buenos. Anímate y prueba este rico gazpacho sin gluten, ¡buen provecho!</schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/1/5/9/img_gazpacho_sin_gluten_12951_600_square.jpg"/>
+    <schema:recipeIngredient>½ Pimiento verde</schema:recipeIngredient>   
+    <schema:recipeIngredient>8 cucharadas soperas de Aceite</schema:recipeIngredient> 
+    <schema:recipeIngredient>2 Huevos</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cebolla</schema:recipeIngredient>
+    <schema:recipeIngredient>½ cebolla</schema:recipeIngredient>
+    <schema:recipeIngredient>½ Pimiento rojo</schema:recipeIngredient>
+    <schema:recipeIngredient>Pimienta</schema:recipeIngredient>
+    <schema:recipeIngredient>Agua</schema:recipeIngredient>
+    <schema:recipeIngredient>3 cucharadas soperas de Vinagre</schema:recipeIngredient>
+    <schema:recipeIngredient>50 gramos de Miga de pan sin gluten</schema:recipeIngredient>
+    <schema:recipeIngredient>3 dientes de Ajo</schema:recipeIngredient>
+    <schema:recipeIngredient>3 tomates maduros</schema:recipeIngredient>
+    <schema:recipeIngredient>Sal</schema:recipeIngredient>
+    <schema:recipeIngredient>½ Pepino</schema:recipeIngredient>
+    <schema:text>Para elaborar esta receta de gazpacho para celíacos, el primer paso es poner a cocer los huevos en una cacerola con agua hirviendo durante 10 minutos.</schema:text>
+    <schema:text>A continuación, pela, pica en dados y reserva todas las verduras para la guarnición del gazpacho casero.</schema:text>
+    <schema:text>Para hacer el gazpacho andaluz, pica la cebolla, los tomates, el pepino, los pimientos, los dientes de ajo y la miga de pan en un recipiente.</schema:text>
+    <schema:text>Después añade aceite y vinagre, tritura todos los ingredientes del gazpacho sin gluten bien y pásalo por un chino para que quede bien fino.</schema:text>
+    <schema:text>Posteriormente añade agua para darle la consistencia que quieras a la receta de gazpacho fácil. Si lo quieres tomar bien frío, déjalo un par de horas en la heladera o refrigerador.</schema:text>
+    <schema:text>Sazona el gazpacho sin gluten con un poco de sal y pimienta al gusto y sírvelo en unos cuencos para que quede más vistoso. Acompaña esta sopa fría con los huevos picados y las verduras de la guarnición en dados. ¡Y ya tenemos nuestra receta de gazpacho fácil lista!</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

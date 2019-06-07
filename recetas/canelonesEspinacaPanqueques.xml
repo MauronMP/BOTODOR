@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Ncb2bf6145b2141ea9cc96063654f745c">
+    <schema:name>Canelones de espinaca con panqueques</schema:name>
+    <schema:totalTime>90</schema:totalTime>
+    <schema:recipeCategory>Plato principal</schema:recipeCategory>
+    <schema:description>¿A quién no le gusta la comida italiana? Lo primero que se nos viene a la mente son las pizzas y las pastas. ¡Qué delicia! Sin embargo, cada día alrededor del mundo son más las personas alérgicas o intolerantes al gluten. Aquellos que deben seguir una dieta exenta de trigo se ven enfrentados a la complicada labor de mantener una dieta balanceada sin este valioso cereal. Esta receta alternativa: canelones de espinaca con panqueques. ¡Puro sabor italiano sin gluten!Los canelones de ricota y espinaca con panqueques son simples de preparar y muy nutritivos. Aunque la masa de los canelones es más ligera, te llenan muchísimo. ¡Buon appetito!</schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/8/4/1/canelones_de_espinaca_con_panqueques_69148_600_square.jpg"/>
+    <schema:recipeIngredient>1½ cucharaditas de sal</schema:recipeIngredient> 
+    <schema:recipeIngredient>60 mililitros de aceite de oliva</schema:recipeIngredient>
+    <schema:recipeIngredient>3 cucharaditas de aceite</schema:recipeIngredient>
+    <schema:recipeIngredient>250 gramos de maicena </schema:recipeIngredient>
+    <schema:recipeIngredient>350 mililitros de leche semidesnatada, sin lactosa o vegetal</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de sal </schema:recipeIngredient>
+    <schema:recipeIngredient>½ cucharadita de pimienta </schema:recipeIngredient>  
+    <schema:recipeIngredient>2,3 kilogramos de tomates maduros pelados y picados</schema:recipeIngredient>   
+    <schema:recipeIngredient>75 gramos de albahaca picada</schema:recipeIngredient>
+    <schema:recipeIngredient>4 tazas de ricotta baja en grasa</schema:recipeIngredient>
+    <schema:recipeIngredient>1 taza de queso pecorino o parmesano</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de mantequilla o aceite para untar la sartén</schema:recipeIngredient>
+    <schema:recipeIngredient>3 tazas de espinaca picada</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cucharadita de hojas de orégano seco</schema:recipeIngredient>
+    <schema:recipeIngredient>3 dientes de ajo</schema:recipeIngredient>
+    <schema:recipeIngredient>3 huevo</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cebolla grande</schema:recipeIngredient>
+    <schema:recipeIngredient>15 hojas de albahaca</schema:recipeIngredient>
+    <schema:text>Primero prepara los panqueques para canelones. Vierte en un bol la leche, el aceite, los huevos, la maicena y la sal. Integra todos los ingredientes muy bien hasta lograr una consistencia homogénea y evitar los grumos. Deja la preparación final reposar por 1 hora, así adquiere más cuerpo.</schema:text>
+    <schema:text>Pasado el tiempo, coloca una sartén a fuego medio-bajo. Inmediatamente, vierte un chorrito de aceite o una cucharada de mantequilla. Esparce y espera a que esté caliente. Al rato, añade la masa de los panqueques utilizando un cucharón de sopa. Procura expandirla de forma uniforme sobre el sartén, hasta crear una capa delgada. Cocina hasta que los bordes de la panqueca se doren, entonces despega. Ese es el momento justo para voltear la tortita. Cocina de 5 a 10 minutos la otra cara. Luego, continúa preparando el resto de mezcla y reserva las crepes obtenidas.</schema:text>
+    <schema:text>Entre tanto, cocina los tomates que servirán para la salsa. Puedes hervirlos o cocinarlos al vapor. Sabrás que están listos cuando se agriete la piel. Deja enfriar un poco para eliminar la piel, sin quemarte. Luego, tritura con un tenedor o pisapapas hasta crear un puré. Reserva.</schema:text>
+    <schema:text>Mezcla la ricotta, la espinaca y la albahaca en un tazón profundo. Añade el aceite, sazona con sal y pimienta al gusto. Reserva el relleno.</schema:text>
+    <schema:text>Para preparar la salsade los canelones, primero calienta el aceite a fuego medo-bajo. Paso seguido, añade la cebolla y menea hasta que se torne transparente. Luego, agrega el ajo y espera hasta que se transparente también.</schema:text>
+    <schema:text>Agrega la pasta de tomate casera e integra con los otros ingredientes. Tapa y cuece hasta que la mezcla esté cocida. Agrega la albahaca, el orégano, la sal y la pimienta al gusto. Remueve y deja consumir un poco la salsa.</schema:text>
+    <schema:text>Prepara los canelones de espinaca  con panqueques colocando el relleno en uno de los extremos.</schema:text>
+    <schema:text>Enrolla cada canelón con cuidado para evitar que se abran o rompan.</schema:text>
+    <schema:text>Engrasa una bandeja y coloca con cuidado los canelones de ricota con panqueques, uno junto al otro. Lleva al horno a 200 ºC y espera 5 minutos o hasta que se gratine el queso.</schema:text>
+    <schema:text>Corta cada canelón en dos, luego también pica los bordes. Esto te garantiza una excelente presentación, a la hora de servir. Rocía de nuevo con salsa y queso. Adorna con una hoja de albahaca, si lo deseas. ¡Están riquísimos!Mamma Mia! Unos canelones de espinaca con panqueques simplemente exquisitos.</schema:text>    
+  </schema:Recipe>
+</rdf:RDF>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Ne2102cc1d18a488e869d9de255ee15bc">
+    <schema:name>Pizza de quinoa</schema:name>
+    <schema:totalTime>45</schema:totalTime>
+    <schema:recipeCategory>Plato principal</schema:recipeCategory>
+    <schema:description>Como siempre tenemos en cuenta a todos nuestros usuarios, en esta receta traemos una deliciosa y exquisita opción apta para todas aquellas personas intolerantes al gluten: pizza de quinoa con tomates cherry y queso mozzarella. La base está hecha de quinoa, un carbohidrato complejo y un alimento muy completo.</schema:description>
+    <schema:image rdf:resource="https://t2.rg.ltmcdn.com/es/images/5/1/1/img_pizza_de_quinoa_para_celiacos_56115_600_square.jpg"/>
+    <schema:recipeIngredient>1 cucharada sopera de Aceite de oliva</schema:recipeIngredient>
+    <schema:recipeIngredient>1 taza de quinoa previamente cocinada</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de Sal</schema:recipeIngredient>  
+    <schema:recipeIngredient>1 pizca de Pimienta negra</schema:recipeIngredient>    
+    <schema:recipeIngredient>200 gramos de queso mozzarella</schema:recipeIngredient>
+    <schema:recipeIngredient>250 gramos de tomates cherry</schema:recipeIngredient>
+    <schema:recipeIngredient>2 cucharadas soperas de pasta de tomate</schema:recipeIngredient>
+    <schema:recipeIngredient>1 cucharada postre de harina de maíz</schema:recipeIngredient>
+    <schema:recipeIngredient>1 pizca de Polvo de hornear</schema:recipeIngredient> 
+    <schema:text>El primer paso para realizar nuestra receta sin gluten es prealistar los ingredientes.</schema:text>
+    <schema:text>Vamos a empezar por la masa para pizza de quinoa. Entonces, primero llevamos la quinoa previamente cocinada a un bol y añadimos la harina de maíz, licua o procesa estos ingredientes.</schema:text>
+    <schema:text>Añade el aceite de oliva, sal, pimienta y la pizca de polvo de hornear. Amasa bien con las manos la preparación. Añade un poco de agua para formar la masa y que se incorporen los ingredientes.</schema:text>
+    <schema:text>Dale forma redonda, estas cantidades es para una porción de pizza de tamaño individual. Lleva la masa de pizza a una refractaria y hornea por lado y lado durante 15 minutos. Si deseas también puedes cocinar la masa en una sartén caliente, recuerda que la masa es delicada.</schema:text>
+    <schema:text>Lleva una sartén a fuego medio con un poco de aceite de oliva, añade un poco de sal, pimienta y tomillo y sofríe los tomates cherry cortados por la mitad hasta que estén en el punto de cocción deseado.</schema:text>
+    <schema:text>Ahora vamos a realizar la salsa base para la pìzza sin gluten. Para ello, en un bol añade la pasta de tomate, un poco de aceite de oliva y orégano seco al gusto. Mezcla bien hasta que se integren los ingredientes.</schema:text>
+    <schema:text>Extiende la salsa sobre la base de quinoa y espolvorea el queso rallado encima. Hornea la pizza hasta que el queso se derrita.</schema:text>
+    <schema:text>Retira la pizza para celíacos del horno y añade los tomates cherrys salteados. Lo que tratamos de realizar es una pizza tipo margarita, recuerda que debes ser muy cauteloso al hacer la masa de quinoa, pues es muy delicada. Si deseas más recetas de pizza y tienes algún comentario o inquietud, escríbenos. ¡Disfruta!</schema:text>
+  </schema:Recipe>
+</rdf:RDF>

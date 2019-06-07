@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="N906a8495f6df421d90b31a283358bb2a">
+    <schema:name>Churros</schema:name>
+    <schema:totalTime>45</schema:totalTime>
+    <schema:recipeCategory>Merienda</schema:recipeCategory>
+    <schema:description>Unos churros libres de gluten para que disfrutes de los postres más tradicionales con total confianza..</schema:description>
+    <schema:image rdf:resource="https://t1.rg.ltmcdn.com/es/images/1/7/5/img_churros_sin_gluten_50571_600_square.jpg"/>
+    <schema:recipeIngredient>1 cucharadita de canela molida</schema:recipeIngredient>    
+    <schema:recipeIngredient>1 cucharadita de Sal</schema:recipeIngredient>
+    <schema:recipeIngredient>2 piezas de Huevo</schema:recipeIngredient>    
+    <schema:recipeIngredient>1 taza de Agua</schema:recipeIngredient>   
+    <schema:recipeIngredient>125 gramos de Azúcar</schema:recipeIngredient>
+    <schema:recipeIngredient>250 gramos de Harina libre de gluten</schema:recipeIngredient> 
+    <schema:recipeIngredient>70 gramos de Mantequilla</schema:recipeIngredient>
+    <schema:text>En una cazo ponemos a calentar el agua y ahí agregamos la mantequilla. Movemos hasta que se derrita completamente.</schema:text>
+    <schema:text>Luego agregamos la cucharadita de sal, mezclamos perfectamente.</schema:text>
+    <schema:text>A continuación, agrega la harina de golpe. Retiramos del fuego y movemos hasta que esté todo bien integrado. Recuerda que debes comprar una harina apta para celíacos.</schema:text>
+    <schema:text>Ahora le agregamos uno por uno los huevos.</schema:text>
+    <schema:text>Ahora vamos a llenar una churrera y proceder a freír los churros en una sartén con aceite bien caliente.</schema:text>
+    <schema:text>Ponemos a escurrir en una servilleta de papel para quitar excedente de aceite y luego los pasamos a un platón para ponerles azúcar y canela al gusto.</schema:text>
+    <schema:text>Servimos los churros sin gluten bien calientitos acompañando con una agradable taza de té. Recuerda que los churros también se pueden acompañar con salsa de chocolate, leche condensada o dulce de leche.</schema:text>    
+  </schema:Recipe>
+</rdf:RDF>

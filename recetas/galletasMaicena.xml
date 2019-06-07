@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="http://schema.org/">
+  <schema:Recipe rdf:nodeID="Na97a47761e984a56808a079adbd07293">
+    <schema:name>Galletas de maicena</schema:name>
+    <schema:totalTime>30</schema:totalTime>
+    <schema:recipeCategory>Merienda</schema:recipeCategory>
+    <schema:description>Se trata de las galletas de maicena para celíacos, unas galletas hechas con maicena y azúcar mascabado que se volverán una adicción. Si tienes que cuidar tu dieta y eres intolerante al gluten. Sigue leyendo y aprende cómo hacer galletas de maicena paso a paso.</schema:description>
+    <schema:image rdf:resource="https://t1.rg.ltmcdn.com/es/images/6/4/5/img_galletas_de_maicena_para_celiacos_59546_600_square.jpg"/>
+    <schema:recipeIngredient>1 Yema de huevo</schema:recipeIngredient>
+    <schema:recipeIngredient>400 gramos de maicena</schema:recipeIngredient>
+    <schema:recipeIngredient>200 gramos de leche condensada</schema:recipeIngredient>
+    <schema:recipeIngredient>125 gramos de Manteca sin tacc</schema:recipeIngredient>
+    <schema:recipeIngredient>3 cucharadas soperas de azúcar mascabado</schema:recipeIngredient>
+    <schema:text>Para comenzar a preparar la masa de estas galletas caseras, debes mezclar la yema de huevo con la manteca a temperatura ambiente, la leche condensada y el azúcar.El azúcar mascabado es un azúcar de caña integral considerada mucho más sana por ser un azúcar no refinada. Tiene un color oscuro y se parece un poco al azúcar moreno. Por otra parte, la manteca sin tacc, es un tipo de manteca libre de gluten muy utilizada en la preparación de recetas para celíacos.</schema:text>
+    <schema:text>Una vez que esté todo unido, cernir la maicena e incorporarla de a poco. Mezclar bien hasta conseguir que se integre por completo en la masa.</schema:text>
+    <schema:text>A continuación, para formar las galletas de maicena, tomar pequeñas porciones de masa y hacer bolitas de la medida deseada. Tener en cuenta que aumentarán de tamaño.Se puede aplastar con un tenedor o ahuecar para después rellenar.</schema:text>
+    <schema:text>Colocar todas las galletas en una placa enmantecada y cocinar en el horno precalentado a 200 ºC durante unos 15-20 minutos o hasta que queden un poco doradas.</schema:text>
+    <schema:text>Dejar enfriar ligeramente antes de retirarlas de la placa porque pueden desarmarse. Retirar con cuidado y disfrutar de las ricas galletas de maicena para celíacos.</schema:text>    
+  </schema:Recipe>
+</rdf:RDF>
