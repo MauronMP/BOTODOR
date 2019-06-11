@@ -458,13 +458,13 @@ public class GenericResource {
         consultaRealizada = preconsultaSparql(SERVICE_URI, prefijos+
             "SELECT DISTINCT ?nombreReceta ?categoriaReceta ?imagen \n"+
             "WHERE {\n"+
-            "  ?name schema:name ?nombreReceta.\n"+
-            "   ?name schema:image ?imagen.\n"+
-            "  ?name schema:recipeCategory ?categoriaReceta.\n"+
-                "FILTER(?categoriaReceta="+"\""+tipoCategorias+"\""+")"+
-                "FILTER  EXISTS {"+
-                    "name schema:recipeIngredient ?Ingredientes\n"+
-                    "FILTER (CONTAINS(?Ingredientes,"+"\""+tipoIngrediente+"\""+"))"+
+             "?name schema:name ?nombreReceta.\n"+
+                "?name schema:image ?imagen.\n"+
+                "?name schema:recipeCategory ?categoriaReceta.\n"+
+                    "FILTER(?categoriaReceta="+"\""+tipoCategorias+"\""+")"+
+                    "FILTER EXISTS {"+
+                        "?name schema:recipeIngredient ?Ingredientes\n"+
+                        "FILTER (CONTAINS(?Ingredientes,"+"\""+tipoIngrediente+"\""+"))"+
                 "}\n"+
             "}");
         return consultaRealizada;
